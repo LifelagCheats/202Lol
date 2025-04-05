@@ -41,5 +41,5 @@ jobs:
               repo: context.repo.repo,
               body: `**Welcome**, new contributor!
 
-                Please make sure you've read our [contribution guidelines](https://github.com/LifelagCheats/202Lol/blob/main/CONTRIBUTING.md) and we look forward to reviewing your Pull request shortly ✨`
+                Please make sure you've read our Contribution Guidelines, we look forward to reviewing your Pull request shortly ✨`
             })
