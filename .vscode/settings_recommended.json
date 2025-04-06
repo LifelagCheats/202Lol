@@ -1,0 +1,22 @@
+{
+  "[python]": {
+    "editor.tabSize": 4,  // Use 4 spaces for Python indentation
+    "editor.formatOnSave": true, // Automatically format Python code on save
+    "python.formatting.provider": "black", // Use Black for formatting
+    "python.linting.enabled": true, // Enable linting
+    "python.testing.unittestEnabled": true // If you're using unittest, you can enable this and disable pytest
+  },
+  "files.associations": {
+    "*.py.in": "python", // Associate .py.in files with Python
+    "*.pyi.in": "python" // Associate .pyi.in files with Python
+  },
+  "files.eol": "\n", // Ensure Unix-style line endings
+  "files.insertFinalNewline": true, // Insert a final newline at the end of files
+  "files.trimFinalNewlines": true, // Trim any unnecessary final newlines
+  "files.trimTrailingWhitespace": true, // Remove trailing whitespace
+  "python.testing.unittestEnabled": true, // Enable unittest
+  "python.testing.unittestArgs": [
+    "-v",
+    "tests"
+  ],
+}
