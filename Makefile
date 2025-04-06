@@ -28,7 +28,6 @@ install: check-python
 	@($(PYTHON) -m pip install black mypy pytest pytest-mock pytest-cov requests stem whois halo rich tqdm bandit safety flake8 pylint > /dev/null 2>&1) & PID=$$!; \
 	$(call spinner,$$PID)
 
-	@mypy --install-types --non-interactive
 	@$(PYTHON) -m pip install --upgrade pip > /dev/null
 	@echo " Installation complete!"
 
