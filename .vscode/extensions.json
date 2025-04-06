@@ -1,7 +1,7 @@
 {
   "recommendations": [
-    "ms-python.python",          // Python extension
-    "ms-python.black-formatter", // Black formatter
-    "aaron-bond.better-comments", // better comments for cooperation and colaboration
+    "ms-python.python", 
+    "ms-python.black-formatter",
+    "aaron-bond.better-comments",
   ]
 }
