@@ -18,5 +18,5 @@
   "python.testing.unittestArgs": [
     "-v",
     "tests"
-  ],
+  ]
 }
