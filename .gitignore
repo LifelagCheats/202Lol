@@ -7,7 +7,6 @@ env/
 ENV/
 .venv/
 .virtualenv/
-.vscode/
 .idea/
 *.log
 *.bak
